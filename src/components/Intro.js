@@ -5,7 +5,7 @@ import game from "../assets/game.svg";
 
 const Intro = () => {
   return (
-    <section className="intro">
+    <section className="intro" id="intro">
       <div className="intro-detail">
         <h3>Introduction to The Leading </h3>
         <span>Digital advertising agency.</span>

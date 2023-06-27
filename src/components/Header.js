@@ -21,7 +21,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="about-us" smooth={true} duration={500}>
+            <Link to="intro" smooth={true} duration={500}>
               About Us
             </Link>
           </li>

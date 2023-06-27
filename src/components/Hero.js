@@ -18,7 +18,7 @@ const Hero = () => {
           <Link to="contact-us" smooth={true} duration={500}>
             <button>Contact Us</button>
           </Link>
-          <Link to="about-us" smooth={true} duration={500}>
+          <Link to="intro" smooth={true} duration={500}>
             <button>About Us</button>
           </Link>
         </div>
