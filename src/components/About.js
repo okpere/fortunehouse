@@ -16,7 +16,8 @@ function About() {
         <div>
           <p id="contact-us">Contact Us</p>
           <ul>
-            <li>+8617775747306</li>
+            <li>+2347058484042</li>
+            <li>+2349166228994</li>
             <li>Support@wajegames.com</li>
             <li>FCT Abuja, Nigeria </li>
             <li>1 Kandi Close, off Aminu Kano Crescent, Wuse II FCT Abuja</li>
