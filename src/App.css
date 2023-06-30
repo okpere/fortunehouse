@@ -1,25 +1,9 @@
 /* App.css */
-.App {
+.App section {
 }
 
 /* components/Header.css */
 
-.header-logo img:hover {
-  border: 2px solid purple;
-}
-.header-list ul {
-  display: none;
-}
-.App-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-.header-button button {
-  font-size: 1.2rem;
-  padding: 10px 20px;
-}
 /* components/Hero.css */
 .hero {
   padding-top: 10px;
@@ -138,9 +122,27 @@
 /* components/Footer.css */
 
 /* Media Query for Mobile */
-@media (max-width: 768px) {
+@media (max-width: 1284px) {
   /* components/Header.css */
-
+  .header-logo img:hover {
+    border: 2px solid purple;
+  }
+  .header-list ul {
+    display: none;
+  }
+  .App-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .header-button button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 2px solid purple;
+    background-color: rgb(51, 51, 51);
+    color: white;
+  }
   /* components/Hero.css */
   .hero {
     height: 90vh;
@@ -175,24 +177,30 @@
 
   /* components/intro.css */
   .intro {
-    padding: 2rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .intro-detail h3 {
-    font-size: 3rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
   }
   .intro-detail span {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    color: purple;
   }
 
   .intro-detail p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .intro-card {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 40px;
   }
 
   .intro-card p {
@@ -233,16 +241,39 @@
   .about-detail ul li {
     font-size: 1.2rem;
   }
+  /* services */
+  .Services {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 
   .service-detail {
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
   }
-  #footer {
-    margin-top: 350px;
+  .service-detail span {
+    color: purple;
   }
-  .Footer p {
-    margin-left: 10px;
+  .service-detail hr {
+    background-color: purple;
+  }
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .partner p {
+    font-size: 1.7rem;
+    text-align: center;
+    border-bottom: 2px solid purple;
+  }
+  .partner-image span {
+    display: block;
+  }
+  .Footer {
+    text-align: center;
   }
   .intro button {
     font-size: 1.2rem;
@@ -256,7 +287,7 @@
     background-color: rgb(51, 51, 51);
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1285px) {
   .App-header {
     background-color: white;
     padding: 20px;

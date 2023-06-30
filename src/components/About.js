@@ -33,6 +33,10 @@ function About() {
           </ul>
         </div>
       </div>
+      <div className="Footer" id="footer">
+      <hr />
+      <span>&copy; 2023 Fortune House Network. All rights reserved.</span>
+    </div>
     </section>
   );
 }
