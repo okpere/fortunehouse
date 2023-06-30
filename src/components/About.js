@@ -30,6 +30,7 @@ function About() {
             <li>Advertising</li>
             <li>Digital Strategy</li>
             <li>Socail marketing</li>
+            <li>planning and management</li>
           </ul>
         </div>
       </div>

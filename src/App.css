@@ -275,6 +275,11 @@
   .Footer {
     text-align: center;
   }
+  .Footer hr {
+    color: purple;
+    background-color: purple;
+    height: 0.5px;
+  }
   .intro button {
     font-size: 1.2rem;
     font-weight: 400;
