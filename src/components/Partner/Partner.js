@@ -24,18 +24,18 @@ const Partner = () => {
           <img src={opay} />
         </span>
         <span>
-          <img src={plam}/>
+          <img src={plam} />
         </span>
         <span>
-          <img src={addynamo}/>
+          <img src={meta} />
+        </span>
+        <span>
+          <img src={pay} />
+        </span>
+        <span>
+          <img src={addynamo} />
         </span>
         <img src={Google} />
-        <span>
-          <img src={meta}/>
-        </span>
-        <span>
-          <img  src={pay}/>
-        </span>
       </div>
     </section>
   );

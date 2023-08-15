@@ -26,7 +26,7 @@ function Header() {
           </li>
         </ul>
       <div className="header-button">
-        <button>Contact</button>
+        <button to="about" smooth={true} duration={500}>Contact</button>
       </div>
     </header>
   );
