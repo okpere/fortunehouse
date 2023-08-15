@@ -1,15 +1,14 @@
 // components/Header.js
 import React from "react";
-import logo from "../assets/logo2.png";
+import logo from "../../assets/logo2.png";
 import { Link } from "react-scroll";
+import "./Header.css";
+
 function Header() {
   return (
-    <header className="App-header">
-      <div className="header-logo">
-        <img src={logo} alt="FHNlogo" width="150" height="80" />
-      </div>
-      <div className="header-list">
-        <ul>
+    <header className="header">
+        <img src={logo} alt="FHNlogo" width="120" height="60" />
+        <ul className="header-list">
           <li>
             <Link to="home" smooth={true} duration={500}>
               Home
@@ -26,7 +25,6 @@ function Header() {
             </Link>
           </li>
         </ul>
-      </div>
       <div className="header-button">
         <button>Contact</button>
       </div>

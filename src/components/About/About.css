@@ -1,0 +1,56 @@
+.About {
+  padding: 40px 80px;
+  background-color: black;
+  color: white;
+}
+
+.About h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 5px;
+}
+.About > p {
+  text-align: center;
+  font-size: 1rem;
+  color: gray;
+}
+
+.about-detail {
+  padding: 100px 20px;
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+}
+
+.about-detail p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.contact {
+  max-width: 200px;
+}
+.service {
+  max-width: 400px;
+}
+.about-detail ul {
+  list-style: none;
+}
+
+.about-detail ul li {
+  font-size: 1rem;
+  color: gray;
+}
+@media only screen and (max-width: 768px) {
+  .logo{
+    width: 180px;
+  }
+  .about-detail {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}@media only screen and (max-width: 476px) {
+  .About{
+    padding: 100px 20px;
+}
+}

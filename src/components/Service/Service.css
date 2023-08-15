@@ -1,0 +1,90 @@
+.Services {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 100px 70px;
+  gap: 50px;
+  justify-content: space-between;
+}
+.service-detail {
+  margin: auto 0;
+  max-width: 700px;
+}
+.Services h3 {
+  font-size: 3rem;
+}
+.service-detail p {
+  font-size: 2rem;
+}
+.service-detail h3 span,
+.service-detail p span {
+  color: purple;
+}
+.Services hr {
+  border-bottom: 0.5px solid purple;
+}
+.service-detail-expain span {
+  font-size: 1.2rem;
+  max-width: 900px;
+  line-height: 2rem;
+  padding: 20px 0px;
+}
+.service-card {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 500px;
+}
+.service-card p {
+  font-size: 2rem;
+  padding: 5px 0px;
+  
+}
+.service-card span {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+@media only screen and (max-width: 992px) {
+  .Services {
+  }
+  .Services h3 {
+    font-size: 2rem;
+  }
+  .service-detail p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Services {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+  }
+  .Services h3 {
+    font-size: 1.8rem;
+  }
+  .service-detail-expain span {
+    font-size: 1.1rem;
+  }
+  .service-detail p {
+    font-size: 1.4rem;
+  }
+  .service-card p {
+    font-size: 1.5rem;
+  }
+  .service-card span {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .Services {
+    padding: 100px 20px;
+}
+}

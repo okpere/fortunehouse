@@ -1,13 +1,13 @@
 // App.js
 import React from "react";
-
-import Header from "./components/Header";
-import Services from "./components/Services";
-import About from "./components/About";
-import Hero from "./components/Hero";
-import Intro from "./components/Intro";
+import Header from "./components/Header/Header";
+import Services from "./components/Service/Services";
+import About from "./components/About/About";
+import Hero from "./components/Hero/Hero";
+import Intro from "./components/Intro/Intro";
 import "./App.css";
-import Partner from "./components/Partner";
+import Partner from "./components/Partner/Partner";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <Services />
       <Partner />
       <About />
+      <Footer/>
     </div>
   );
 }

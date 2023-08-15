@@ -1,7 +1,8 @@
 // components/Services.js
 import React from "react";
-import Card from "./card/Card";
-import brain from "../assets/bulb.svg";
+import Card from "../card/Card";
+import brain from "../../assets/bulb.svg";
+import './Service.css'
 
 function Services() {
   // Define multiple styles as objects
@@ -23,14 +24,14 @@ function Services() {
         <p>
           Our Leading <span>Gaming Service!!</span>
         </p>
-        <div>
-          <p>
+        <div className="service-detail-expain">
+          <span>
             Fortune House Network is becoming one of the most stable and
             reliable advertising agencies and leading gaming companies in
             Nigeria. We firmly believe there will be more business partners
             willing to cooperate with us in promoting the further development of
             the local gaming and advertising industry in Nigeria.
-          </p>
+          </span>
         </div>
       </div>
       <div className="service-card">
@@ -45,7 +46,7 @@ function Services() {
         </Card>
         <Card style={cardStyle}>
           <img src={brain} />
-          <p></p>
+          <p>Advertising agency</p>
           <span>
             As an advertising agency, we have an experienced team dedicated to
             providing clients with comprehensive services. We have established

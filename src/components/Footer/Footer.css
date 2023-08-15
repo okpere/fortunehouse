@@ -1,0 +1,8 @@
+.Footer {
+  text-align: center;
+}
+.Footer hr {
+  color: purple;
+  background-color: purple;
+  height: 0.5px;
+}

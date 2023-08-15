@@ -1,9 +1,13 @@
 import React from "react";
-import Card from "./card/Card";
-import bulb from "../assets/bulb.svg";
-import game from "../assets/game.svg";
+import Card from "../card/Card";
+import bulb from "../../assets/bulb.svg";
+import game from "../../assets/game.svg";
+import './intro.css'
 
 const Intro = () => {
+  const cardStyle ={
+    maxWidth:'380px',
+  }
   return (
     <section className="intro" id="intro">
       <div className="intro-detail">
@@ -24,7 +28,7 @@ const Intro = () => {
         <button>Hire Us</button>
       </div>
       <div className="intro-card">
-        <Card>
+        <Card style={cardStyle}>
           <img src={bulb} />
           <p>Digital Strategy</p>
           <span>
@@ -32,7 +36,7 @@ const Intro = () => {
             technology-focused initiatives
           </span>
         </Card>
-        <Card>
+        <Card style={cardStyle}>
           <img src={game} />
           <p>Media Buying and Planning</p>
           <span>

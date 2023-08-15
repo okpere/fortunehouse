@@ -1,0 +1,116 @@
+.intro {
+    margin: 100px 0px;
+  padding: 0px 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.intro-detail h3 {
+  font-size: 3rem;
+}
+.intro-detail span {
+  font-size: 2rem;
+  color: purple;
+}
+.intro-detail p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  line-height: 2rem;
+  padding: 20px 0px;
+}
+.intro-detail button {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 15px 25px;
+  border: 2px solid purple;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: white;
+  background-color: rgb(51, 51, 51);
+}
+
+.intro-detail button:hover {
+  transform: translate(0px, -4px);
+}
+.intro-card{
+   display: flex;
+   flex-direction: column;
+   gap: 15px; 
+}
+.intro-card span {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+.intro-card p {
+  font-size: 2rem;
+  padding: 5px 0px;
+}
+@media only screen and (max-width: 992px) {
+  .intro {
+  }
+  .intro-detail h3 {
+    font-size: 2rem;
+  }
+  .intro-detail span {
+    font-size: 1.5rem;
+    color: purple;
+  }
+  .intro-detail p {
+    padding: 10px 0px;
+  }
+  .intro-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .intro-card p {
+    font-size: 1.5rem;
+  }
+  .intro-card span {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .intro-detail h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .intro-detail span {
+    font-size: 1.4rem;
+    color: purple;
+  }
+
+  .intro-detail p {
+    font-size: 1.1rem;
+  }
+
+  .intro-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 auto;
+  }
+
+  .intro-card p {
+    font-size: 1.5rem;
+  }
+
+  .intro-card span {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .intro {
+    padding: 0px 20px;
+}
+}
