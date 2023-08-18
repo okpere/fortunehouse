@@ -34,7 +34,7 @@ function About() {
             <li>1 Kandi Close, off Aminu Kano Crescent, Wuse II FCT Abuja</li>
           </ul>
         </div>
-        {/* <div className="contact">
+        <div className="contact">
           <p id="contact-us">Contact Us</p>
           <ul>
             <li>0731222365</li>
@@ -42,7 +42,7 @@ function About() {
             <li>P.O Box :1641,</li>
             <li>Milele Center,off namanga,road</li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </section>
   );
